@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" href="contactCss.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Contact Form</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="form-box">
+                <form name="frmContact" method="post" action="contact.php">
+
+                    <div class="input-box">
+                        <label for="Name">Name :</label>
+                        <input type="text" name="txtName" id="txtName" placeholder="name">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email :</label>
+                        <input type="text" name="txtEmail" id="txtEmail" placeholder="email">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="phone">Phone :</label>
+                        <input type="text" name="txtPhone" id="txtPhone" placeholder="phone no">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="message">Message :</label>
+                        <textarea name="txtMessage" id="txtMessage"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" name="Submit" id="Submit" value="Submit">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>
